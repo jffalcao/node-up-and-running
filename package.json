@@ -1,0 +1,19 @@
+{
+  "name": "up-and-running",
+  "version": "1.0.0",
+  "description": "Node.JS Up and Running Book",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jffalcao/node-up-and-running.git"
+  },
+  "author": "Jose Fernando Falcao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jffalcao/node-up-and-running/issues"
+  },
+  "homepage": "https://github.com/jffalcao/node-up-and-running#readme"
+}
