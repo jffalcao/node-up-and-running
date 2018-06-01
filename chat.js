@@ -15,7 +15,7 @@ chatServer.on('connection', (client) => {
  
   console.log(client.name);
  
-  client.write('Hi!\n');
+  client.write('Connexion to chat server established!\n');
 
   clientList.push(client);
 
@@ -27,7 +27,7 @@ chatServer.on('connection', (client) => {
 function broadcast(message, client) {
   for (let i = 0; i < clientList.length; i++) {
     if (client !== clientList[i]) {
-      clientList[i].write(message)
+      clientList[i].write(client.name + " says > " + message)
     };
   };
 };
